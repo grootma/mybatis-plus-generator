@@ -16,3 +16,14 @@ mybatis-plus-generator：是用来生成mybatis-plus 下mybatis代码的
         3、控制台输入上一级包名
         4、输入想要反向生成代码的表结构
         5、将生成的代码考入项目中即可使用mybatis plus的核心功能。
+    其中ojdbc这个包，maven官方仓库获取不到可以使用阿里云的镜像仓库
+    maven settings.xml文件mirrors中添加mirror标签，如下
+      <mirrors>
+    	<mirror>      
+    	  <id>nexus-aliyun</id>    
+    	  <name>nexus-aliyun</name>  
+    	  <url>http://maven.aliyun.com/nexus/content/groups/public</url>    
+    	  <mirrorOf>central</mirrorOf>      
+    	</mirror>  
+      </mirrors>
+    
