@@ -10,7 +10,7 @@ mybatis-plus-generator：是用来生成mybatis-plus 下mybatis代码的
 
 生成方法：
 
-    此处一oracle数据库示例：
+    此处以oracle数据库示例：
         1、将application.yml中数据库连接配置改为自己的库。
         2、运行OracleGenerator.java中的main方法 
         3、控制台输入上一级包名
